@@ -1,7 +1,15 @@
 import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { Trophy, Mail, Lock, ShieldCheck, Github, Globe, Loader2, ArrowRight } from 'lucide-react';
+import {
+  Trophy,
+  Mail,
+  Lock,
+  ShieldCheck,
+  Globe,
+  Loader2,
+  ArrowRight
+} from "lucide-react";
 import { motion } from 'framer-motion';
 
 const Login = () => {
@@ -274,7 +282,7 @@ const Login = () => {
               disabled={loading}
               className="flex-1 bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-200 text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 hover:bg-slate-800/40 transition-all active:scale-[0.98] cursor-pointer"
             >
-              <GitHubIcon className="w-4 h-4 text-purple-400" /> GitHub
+              <Globe className="w-4 h-4 text-purple-400" />GitHub
             </button>
           </div>
         </div>

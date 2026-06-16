@@ -43,7 +43,7 @@ cp .env.example .env
 ```
 Ensure your `.env` contains:
 ```env
-PORT=5000
+PORT=5004
 MONGODB_URI=mongodb://127.0.0.1:27017/cricket-finder
 JWT_SECRET=supersecret_access_token_key_123456
 JWT_REFRESH_SECRET=supersecret_refresh_token_key_123456
